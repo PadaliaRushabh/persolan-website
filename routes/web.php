@@ -15,5 +15,6 @@ Route::get('/', function () {
 
     $copywriteYear = date("Y");
     $name = "Rushabh Padalia";
-    return view('main', compact('copywriteYear', 'name'));
+    $position = "Software Engineer";
+    return view('main', compact('copywriteYear', 'name', 'position'));
 });

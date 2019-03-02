@@ -1,7 +1,7 @@
 <div id="lead">
     <div id="lead-content">
-        <h1>Ryan Fitzgerald</h1>
-        <h2>Software Engineer</h2>
+        <h1>{{$name}}</h1>
+        <h2>{{$position}}</h2>
         <a href="#" class="btn-rounded-white">Download Resume</a>
     </div>
     <!-- End #lead-content -->

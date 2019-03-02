@@ -4,7 +4,7 @@
 <!-- End #mobile-menu-toggle -->
 <header>
     <div id="mobile-menu-close">
-        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        <span>Close</span> <i class="fab fa-times" aria-hidden="true"></i>
     </div>
     <ul id="menu" class="shadow">
         <li>
