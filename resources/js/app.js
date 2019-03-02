@@ -6,6 +6,8 @@
  */
 
 require('./bootstrap');
+require('./main')
+require('@fortawesome/fontawesome-free')
 
 window.Vue = require('vue');
 

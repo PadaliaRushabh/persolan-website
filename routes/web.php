@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $copywriteYear = date("Y");
+    $name = "Rushabh Padalia";
+    return view('main', compact('copywriteYear', 'name'));
 });
