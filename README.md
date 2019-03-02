@@ -1,1 +1,3 @@
-pws_v3.0
+## License
+
+The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
