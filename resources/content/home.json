@@ -1,0 +1,122 @@
+{
+    "header": [
+      {"link": "#about", "text": "About"},
+      {"link": "#experience", "text": "Experience"},
+      {"link": "#education", "text": "Education"},
+      {"link": "#projects", "text": "Projects"},
+      {"link": "#skills", "text": "Skills"},
+      {"link": "#contact", "text": "Contact"}
+    ],
+    "lead":{
+      "name": "Rushabh Padalia",
+      "position": "Software Engineer"
+    },
+    "about":{
+      "heading": "About Me",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Doneceu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo."
+    },
+    "experience_heading": "Experience",
+    "experience": [
+      {
+        "date": "September 2015 – September 2016", 
+        "employer_name": "Employer Name", 
+        "job_title": "Job Title", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        
+      },
+      {
+        "date": "September 2015 – September 2016", 
+        "employer_name": "Employer Name", 
+        "job_title": "Job Title", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        
+      },
+      {
+        "date": "September 2015 – September 2016", 
+        "employer_name": "Employer Name", 
+        "job_title": "Job Title", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        
+      }
+    ],
+    "education_heading": "Education",
+    "education": [
+      
+      {
+        "date": "Sept 2016 - Sept 2017", 
+        "university_name": "University of Ottawa", 
+        "degree_title": "Bachelor of Science in Computer Science", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        
+      },
+      {
+        "date": "Sept 2016 - Sept 2017", 
+        "university_name": "University of Ottawa", 
+        "degree_title": "Bachelor of Science in Computer Science", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        
+      }
+    ],
+    "project_heading": "Projects",
+    "project": [
+      {
+        "image": "images/project.jpg", 
+        "title": "Project Name Here", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.",
+        "link":"#"
+        
+      },
+      {
+        "image": "images/project.jpg", 
+        "title": "Project Name Here", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.",
+        "link":"#"
+        
+      }
+    ],
+    "skills_heading": "Skills",
+    "skills":[
+      "JavaScript",
+      "Python",
+      "Ruby",
+      "Go",
+      "React",
+      "Elixir"
+    ],
+    "contact_heading": "Get in Touch",
+    "footer":{
+      "social_media":[
+        {
+          "title": "GitHub",
+          "link": "#",
+          "icon_class": "fab fa-github" 
+        },
+        {
+          "title": "stackoverflow",
+          "link": "#",
+          "icon_class": "fab fa-stack-overflow" 
+        },
+        {
+          "title": "linkedin",
+          "link": "#",
+          "icon_class": "fab fa-linkedin" 
+        },
+        {
+          "title": "facebook",
+          "link": "#",
+          "icon_class": "fab fa-facebook" 
+        },
+        {
+          "title": "twitter",
+          "link": "#",
+          "icon_class": "fab fa-twitter" 
+        },
+        {
+          "title": "google",
+          "link": "#",
+          "icon_class": "fab fa-google-plus" 
+        }
+        
+      ]
+    }
+  }

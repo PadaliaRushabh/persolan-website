@@ -1,6 +1,6 @@
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+    <h2>{{$homeContent["contact_heading"]}}</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />

@@ -14,7 +14,9 @@
 Route::get('/', function () {
 
     $copywriteYear = date("Y");
-    $name = "Rushabh Padalia";
-    $position = "Software Engineer";
-    return view('main', compact('copywriteYear', 'name', 'position'));
+    
+    $homeContent = file_get_contents(resource_path() . '/content/home.json');
+    $homeContent = json_decode($homeContent, true);
+    
+    return view('main', compact('copywriteYear', "homeContent"));
 });
