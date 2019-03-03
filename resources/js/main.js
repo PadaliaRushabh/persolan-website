@@ -95,3 +95,43 @@
     });
 
 })(jQuery);
+
+$("document").ready(function(){
+
+    $("#send-email").on("click", function(e){
+        e.preventDefault();
+        let $email = $("#visitor_email");
+        let $name = $("#visitor_name");
+        let $message = $("#message");
+
+        let data = {
+            "visitor_email" : $email.val(),
+            "visitor_name": $name.val(),
+            "message": $message.val()
+        }
+        let settings = {
+            "method": "POST",
+            "data": data,
+            "url": "api/send-email"
+        }
+          
+          $.ajax(settings).done(function (response) {
+            
+            if(response.success == true){
+                $(".alert-success").removeClass("element-invisible");
+
+                setInterval(function(){
+                    $(".alert-success").addClass("element-invisible");
+                }, 7000);
+
+            }else{
+                $(".alert-danger").removeClass("element-invisible");
+
+                setInterval(function(){
+                    $(".alert-danger").addClass("element-invisible");
+                }, 7000);
+
+            }
+          });
+    });
+})

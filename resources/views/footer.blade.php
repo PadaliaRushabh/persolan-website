@@ -18,6 +18,9 @@
                         <a href="{{$item['link']}}" target="_blank"><i class="{{$item['icon_class']}}" aria-hidden="true"></i></a>
                     </li>  
                     @endforeach
+                    <li>
+                        <a href="mailto:padalia.rushabh@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>  
                 </ul>
             </div>
         </div>

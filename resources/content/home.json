@@ -13,29 +13,22 @@
     },
     "about":{
       "heading": "About Me",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Doneceu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo."
+      "text": "I am a software engineer living in Canberra Australia. I have 3 years work experience in software industry, and have been involved in small and major client projects. I am a proficient backend and javascript developer. My current projects include engineering and builiding web and mobile applications with laravel, react and react-native."
     },
     "experience_heading": "Experience",
     "experience": [
       {
-        "date": "September 2015 – September 2016", 
-        "employer_name": "Employer Name", 
-        "job_title": "Job Title", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        "date": "January 2019 – Present", 
+        "employer_name": "372 Digital", 
+        "job_title": "Software Engineer", 
+        "text": "Planning, developing and maintaining major client projects for 372 Digital. Also involved in mentoring junior developers and working closely with management in establishing software engineering and standard operating procedures."
         
       },
       {
-        "date": "September 2015 – September 2016", 
-        "employer_name": "Employer Name", 
-        "job_title": "Job Title", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
-        
-      },
-      {
-        "date": "September 2015 – September 2016", 
-        "employer_name": "Employer Name", 
-        "job_title": "Job Title", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        "date": "July 2016 – December 2018", 
+        "employer_name": "372 Digital", 
+        "job_title": "Application Developer", 
+        "text": "Working with project team and developing backend applications as according to the client requirements. Giving suggestions and inputs to the team lead on specifics of certain requirements."
         
       }
     ],
@@ -43,34 +36,48 @@
     "education": [
       
       {
-        "date": "Sept 2016 - Sept 2017", 
-        "university_name": "University of Ottawa", 
-        "degree_title": "Bachelor of Science in Computer Science", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        "date": "2014 - 2016", 
+        "university_name": "The Australian National University", 
+        "degree_title": "Master's of computing, Software Engineering", 
+        "text": ""
         
       },
       {
-        "date": "Sept 2016 - Sept 2017", 
-        "university_name": "University of Ottawa", 
-        "degree_title": "Bachelor of Science in Computer Science", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat."
+        "date": "2012 - 2014", 
+        "university_name": "James Cook University", 
+        "degree_title": "Bachelor in Information Technology", 
+        "text": ""
         
       }
     ],
     "project_heading": "Projects",
     "project": [
       {
-        "image": "images/project.jpg", 
-        "title": "Project Name Here", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.",
-        "link":"#"
+        "image": "images/cimara.png", 
+        "title": "Cimara Workforce Management", 
+        "text": "Responsible Planning, developing and maintaining Cimara workfore management system. Establishing requirements and scheduling release timeline with client. Guiding junior developer on project. ",
+        "link":"https://www.cimara.com.au/"
         
       },
       {
-        "image": "images/project.jpg", 
-        "title": "Project Name Here", 
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.",
-        "link":"#"
+        "image": "images/cet.png", 
+        "title": "Canberra Ellite Taxi", 
+        "text": "Developed backend API for CET web app using smartmove taxi API. Responsibe for maintaing the backend infrastructure and react CET booking application.",
+        "link":"https://booking.canberraelite.com.au/booking/"
+        
+      },
+      {
+        "image": "images/ncacl.png", 
+        "title": "National Centre for Australian Children's Literature Book Database", 
+        "text": "Developed book database which hopes to make it easier for teachers, parents, and readers to find books which celebrate diversity. https://www.sbs.com.au/news/database-connects-kids-with-culturally-diverse-children-s-books",
+        "link":"https://www.ncacl.org.au/"
+        
+      },
+      {
+        "image": "images/catholic.png", 
+        "title": "Catholic Education School Portal", 
+        "text": "Developed school journal portal for the Catholic education. The application helps different school to post their journal which can be accessed by the students and the community.",
+        "link":"https://cg.catholic.edu.au/"
         
       }
     ],
@@ -78,43 +85,30 @@
     "skills":[
       "JavaScript",
       "Python",
-      "Ruby",
-      "Go",
+      "PHP",
+      "Laravel",
       "React",
-      "Elixir"
+      "Elixir",
+      "Node.js",
+      "MySQL"
     ],
     "contact_heading": "Get in Touch",
     "footer":{
       "social_media":[
         {
           "title": "GitHub",
-          "link": "#",
+          "link": "https://github.com/PadaliaRushabh",
           "icon_class": "fab fa-github" 
         },
         {
           "title": "stackoverflow",
-          "link": "#",
+          "link": "https://stackoverflow.com/users/2032189/rushabh-rajeshkumar-padalia",
           "icon_class": "fab fa-stack-overflow" 
         },
         {
           "title": "linkedin",
-          "link": "#",
+          "link": "https://www.linkedin.com/in/padaliarushabh/",
           "icon_class": "fab fa-linkedin" 
-        },
-        {
-          "title": "facebook",
-          "link": "#",
-          "icon_class": "fab fa-facebook" 
-        },
-        {
-          "title": "twitter",
-          "link": "#",
-          "icon_class": "fab fa-twitter" 
-        },
-        {
-          "title": "google",
-          "link": "#",
-          "icon_class": "fab fa-google-plus" 
         }
         
       ]

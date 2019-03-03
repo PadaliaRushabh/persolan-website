@@ -17350,6 +17350,10 @@ footer {
   }
 }
 
+.element-invisible {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
     font-size: 1.5em;
