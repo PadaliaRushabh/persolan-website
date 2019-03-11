@@ -39430,12 +39430,12 @@ $("document").ready(function () {
         $(".alert-success").removeClass("element-invisible");
         setInterval(function () {
           $(".alert-success").addClass("element-invisible");
-        }, 10000);
+        }, 7000);
       } else {
         $(".alert-danger").removeClass("element-invisible");
         setInterval(function () {
           $(".alert-danger").addClass("element-invisible");
-        }, 10000);
+        }, 7000);
       }
     });
   });
