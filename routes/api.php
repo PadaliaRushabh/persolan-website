@@ -20,15 +20,16 @@ Route::post('/send-email', function(Request $request){
         $visitorName = $request->input('visitor_name');
         $content = $request->input('message');
         
-        $myEmail = "padalia.rushabh@gmail.com";
+        $toEmail = "padalia.rushabh@gmail.com";
+        $fromEmail = "bitnami@ip-172-26-11-226";
         $subject = "New Email from website";
 
         $res = [];
 
-        Mail::send('email', ["content" => $content, "email" => $visitorEmail, "name" => $visitorName ], function ($message) use($visitorEmail, $visitorName, $myEmail) {
-            $message->from($visitorEmail, $visitorName);
-            $message->to($myEmail, 'Rushabh Padalia');
-            $message->subject($myEmail);
+        Mail::send('email', ["content" => $content, "email" => $visitorEmail, "name" => $visitorName ], function ($message) use($toEmail, $subject, $fromEmail) {
+            $message->from($fromEmail, "rushabhpadalia.me");
+            $message->to($toEmail, 'Rushabh Padalia');
+            $message->subject($subject);
       
         });
 
